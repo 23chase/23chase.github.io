@@ -2,27 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>health on Mark Mukhin</title>
-    <link>https://markmukhin.github.io/texts/health/</link>
+    <link>https://23chase.github.io/texts/health/</link>
     <description>Recent content in health on Mark Mukhin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Mark Mukhin.</copyright>
-    <lastBuildDate>Sun, 21 Aug 2022 16:51:31 +0300</lastBuildDate><atom:link href="https://markmukhin.github.io/texts/health/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 16:51:31 +0300</lastBuildDate><atom:link href="https://23chase.github.io/texts/health/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://markmukhin.github.io/texts/test/</link>
+      <link>https://23chase.github.io/texts/test/</link>
       <pubDate>Sun, 21 Aug 2022 16:51:31 +0300</pubDate>
       
-      <guid>https://markmukhin.github.io/texts/test/</guid>
-      <description>This is a page about »Test«.</description>
+      <guid>https://23chase.github.io/texts/test/</guid>
+      <description>This is a page about »Test«.
+content</description>
     </item>
     
     <item>
       <title>Muscular flexibility is underrated: why is that crucial and how work on it</title>
-      <link>https://markmukhin.github.io/texts/flexibility101/</link>
+      <link>https://23chase.github.io/texts/flexibility101/</link>
       <pubDate>Sun, 14 Aug 2022 19:56:24 +0300</pubDate>
       
-      <guid>https://markmukhin.github.io/texts/flexibility101/</guid>
+      <guid>https://23chase.github.io/texts/flexibility101/</guid>
       <description>I am not flexible. I can&amp;rsquo;t even touch my toes. A few years ago I had back pain. Manual therapist said that I have weak back muscles, and this will impact my future life. He even advised me not to lift weights heavier than 5 kg. Now I am recovered, but sometimes it reminds me of itself.
 I wondered — now I am in my late 20s. I can’t touch my toes, sometimes I have unbearable pain when I can’t roll out of bed.</description>
     </item>
