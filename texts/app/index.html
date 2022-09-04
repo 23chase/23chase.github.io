@@ -7,18 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="shortcut icon" type="image/png" href="/images/icon-192x192.png">
 <link rel="shortcut icon" sizes="192x192" href="/images/icon-192x192.png">
 <link rel="apple-touch-icon" href="/imgages/icon-192x192.png">
-<title>App Marketing predictions using MMM: guide for non-technical dummies | Mark Mukhin</title>
-<meta name="title" content="App Marketing predictions using MMM: guide for non-technical dummies" />
-<meta name="description" content="We wanna know, how our money works." />
+<title>App Marketing predictions using MMM. | Mark Mukhin</title>
+<meta name="title" content="App Marketing predictions using MMM." />
+<meta name="description" content="We wanna know, how our money works. Guide for non-technical dummies." />
 <meta name="keywords" content="marketing," />
 
 
-<meta property="og:title" content="App Marketing predictions using MMM: guide for non-technical dummies" />
-<meta property="og:description" content="We wanna know, how our money works." />
+<meta property="og:title" content="App Marketing predictions using MMM." />
+<meta property="og:description" content="We wanna know, how our money works. Guide for non-technical dummies." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://23chase.github.io/texts/app/" /><meta property="og:image" content="https://23chase.github.io/images/share.png"/><meta property="article:section" content="texts" />
-<meta property="article:published_time" content="2022-08-14T18:48:34+03:00" />
-<meta property="article:modified_time" content="2022-08-14T18:48:34+03:00" /><meta property="og:site_name" content="Mark Mukhin" />
+<meta property="article:published_time" content="2022-08-21T18:23:23+02:00" />
+<meta property="article:modified_time" content="2022-08-21T18:23:23+02:00" /><meta property="og:site_name" content="Mark Mukhin" />
 
 
 
@@ -26,14 +26,14 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://23chase.github.io/images/share.png"/>
 
-<meta name="twitter:title" content="App Marketing predictions using MMM: guide for non-technical dummies"/>
-<meta name="twitter:description" content="We wanna know, how our money works."/>
+<meta name="twitter:title" content="App Marketing predictions using MMM."/>
+<meta name="twitter:description" content="We wanna know, how our money works. Guide for non-technical dummies."/>
 
 
 
-<meta itemprop="name" content="App Marketing predictions using MMM: guide for non-technical dummies">
-<meta itemprop="description" content="We wanna know, how our money works."><meta itemprop="datePublished" content="2022-08-14T18:48:34+03:00" />
-<meta itemprop="dateModified" content="2022-08-14T18:48:34+03:00" />
+<meta itemprop="name" content="App Marketing predictions using MMM.">
+<meta itemprop="description" content="We wanna know, how our money works. Guide for non-technical dummies."><meta itemprop="datePublished" content="2022-08-21T18:23:23+02:00" />
+<meta itemprop="dateModified" content="2022-08-21T18:23:23+02:00" />
 <meta itemprop="wordCount" content="1877"><meta itemprop="image" content="https://23chase.github.io/images/share.png"/>
 <meta itemprop="keywords" content="marketing," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -226,21 +226,22 @@
 </header>
   <main>
 
-<h1>App Marketing predictions using MMM: guide for non-technical dummies</h1>
+<h1>App Marketing predictions using MMM.</h1>
 <p>
   <i>
-    <time datetime='2022-08-14' pubdate>
-      14 Aug, 2022
+    <time datetime='2022-08-21' pubdate>
+      21 Aug, 2022
     </time>
   </i>
 </p>
 
 <content>
   <p><em>Disclaimer: I am not a statistician. I always worked with app marketing. I wrote wrote this text for people like me — for who don’t know much about linear regression and stuff. Some of these techniques I tried, most of them not. But I wanna to explore it to answer some questions that important for me.</em></p>
+<br>
 <h2 id="what-is-mmm">What is MMM?</h2>
 <p>Marketing Mix Modeling is an analysis of historical marketing data to estimate the impact of marketing channels and activities on sales and forecast the future.</p>
-<p>Put it simple:</p>
-<p><em><strong>We wanna know, how our money works.</strong></em></p>
+<p>Put it simple: <em><strong>We wanna know, how our money works.</strong></em></p>
+<br>
 <h2 id="why-anybody-should-care-about-it">Why anybody should care about it?</h2>
 <p>In terms of marketing, it is not always possible to say, that Channel X caused Y increase in sales in Z time. Everything starts with non-trackable ads, or ads that very difficult to track. Like TV or billboards.</p>
 <p>How can you be sure, that this money were worth spending on this funny but very expensive rolls between evening TV shows? How can you track the dependencies, if you have dozens of activities that track differently? How can you be sure that you don’t cannibalize your own organic traffic?</p>
@@ -249,6 +250,7 @@
 <p>Personally, I start to think of prediction after iOS privacy hit (and upcoming Android Privacy Sandbox + Cookies death), that changed mobile ads&rsquo; environment entirely. I used to check campaign results in analytical tools (MMPs) like AppsFlyer / Adjust, but for now I can’t rely on data from them — it becomes different, and you can’t simply get the data and be 100% confident, that this data == true.</p>
 <p>App marketing was complicated as it is — you have many unobservable touchpoints through the way of user to your product, and last-click attribution model sucks — it is VERY difficult to distinguish noise from signal and make an informed decision.</p>
 <p><strong>But iOS 14.5 hit was the last warning — change or die.</strong></p>
+<br>
 <h2 id="with-the-help-of-mmm-we-want-to-">With the help of MMM we want to …</h2>
 <ul>
 <li>Weight the channels. So we can see, how every marketing platform impacts our Marketing Mix over time — we’ll see the percentage of this effect and calculate CPA / ROI. Even if we don’t see many conversions attributed to Facebook, historically we know that the platform gives us high-quality users. How can we not guess, but see the real numbers?</li>
@@ -256,11 +258,13 @@
 <li>Predict the future. Only in terms of sales (or any other conversions) by changing the planned spend. You can literally change the planned budgets on the fly and see what’s happens. No more guessing, just plain statistic.</li>
 </ul>
 <p>To summarize — MMM gives the app marketer a possibility to handle everything plus don’t rely on user-level data, which is awesome.</p>
+<br>
 <h2 id="how-does-it-works-in-general">How does it works in general?</h2>
 <p>MMM uses some sorts of regression analyses. Regression analyses — process for estimating the relationships between two variables — dependent (output) and independent (input).</p>
 <p>There are many types of regressions, but linear regression is the most common. It is used to predict a variable based on the another variable using the straight line that most closely goes between these variables.</p>
 <p><img src="/linear-regression.png" alt="HERE THE PICTURE OF STRAIGHT LINE BETWEEN POINTS"></p>
 <p>You give X and Y and want to find out, how these variables works out. By X you can mean Marketing spend by channels, PR coverage, Seasonality, Weather, App Store ranking and other stuff. By Y you can mean anything that you wanna predict — Sales, Web or In-app events.</p>
+<br>
 <h2 id="what-else-can-you-check-with-mmm">What else can you check with MMM?</h2>
 <p>Else you would like to consider</p>
 <ul>
@@ -269,6 +273,7 @@
 <li>Saturation — declining efficiency as spend increases. Every channel have a point of saturation, where adding money is not efficient. It is very convenient to know, (even approximate), where this point is, e.g. that you can’t increase the spend more, than x1.5, because after that point your Customer Acquisition Cost (CAC) will skyrocket.</li>
 </ul>
 <p><img src="/saturation.png" alt="HERE THE PICTURE OF STRAIGHT LINE BETWEEN POINTS"></p>
+<br>
 <h2 id="what-are-the-limitations-of-mmm-approaches">What are the limitations of MMM approaches?</h2>
 <ul>
 <li>They are more biased towards short-term data.</li>
@@ -277,12 +282,13 @@
 <li>Some of the MMM’s can’t clearly get into account seasonality, auction and economical situation, that will hugely influence the results.</li>
 </ul>
 <p>Despite these limitations, we need just a vector to set the hypotheses, right?</p>
+<br>
 <h2 id="but-how-can-i-start">But how can I start?</h2>
 <p>There are few options to start with. Which one to choose will depends on how much money / time / other resources you have. E.g. some marketers can hire a person who will handle it, some can ask their in-house analytical team, others can manage it by their selves.</p>
 <p>Start simple, keep ROI in mind and with time move to more advanced approach, as you will understand limitations and your request.</p>
 <p><img src="/hard-choice.png" alt="HERE THE PICTURE OF POSSIBLE SOLUTIONS"></p>
 <p>From simple and cheap to difficult and expensive:</p>
-<h4 id="1---build-in-google-sheets">1 - Build in Google Sheets</h4>
+<h3 id="1---build-in-google-sheets">1 - Build in Google Sheets</h3>
 <p>This is how I started — with the simple Google Spreadsheet, that counts spend by the week and shows changes in installs and some in-app events. If you have short attribution window (less than a week, obviously) — you can see how large changes impacts your funnel. Of course, it was not enough.</p>
 <p>The next step to dive into MMM — use Google Spreadsheet to actually predict. I found out a great article, that shows how you can use LINEST function to build your first real MMM: <a href="https://mobileuseracquisitionshow.com/episode/mmm-marketing-mix-models-ios-14-att/">https://mobileuseracquisitionshow.com/episode/mmm-marketing-mix-models-ios-14-att/</a>. How it works:</p>
 <ul>
@@ -293,7 +299,7 @@
 <p>But how do LINEST function work?</p>
 <p>This was the first question, when I tried this function by myself. From Google Docs Help — «Given partial data about a linear trend, calculates various parameters about the ideal linear trend using the least-squares method». Ok, maybe I got it. But what is least-squares method? Reframing the Wikipedia: «The method of least squares is a an approach to approximate the solution by minimizing the sum of the squares of the residuals made in the results of each individual equation». Here I stop — maybe I will dive deeper next time.</p>
 <p>I have some difficulties with this type of MMM — first I had not enough data to make trustworthy model, then I found out, that I have big spikes in spending and this brake entire approach. Also, average error rate was acceptable, but from week to week I found out some peaks, that ruins everything. So the main goal is to reach the point, where you can trust this Model. And it will take some time.</p>
-<h4 id="2---use-open-source-solutions">2 - Use Open Source solutions</h4>
+<h3 id="2---use-open-source-solutions">2 - Use Open Source solutions</h3>
 <p><strong>Facebook Robyn</strong></p>
 <p><a href="https://facebookexperimental.github.io/Robyn/">https://facebookexperimental.github.io/Robyn/</a></p>
 <p>Facebook Robyn uses Ridge Regression — this type is different from linear regression because it overcomes the problem of multicollinearity. Robyn provides a much more advanced dive into MMM topic:</p>
@@ -305,14 +311,16 @@
 <p><strong>Google LightweightMMM</strong></p>
 <p><a href="https://github.com/google/lightweight_mmm">https://github.com/google/lightweight_mmm</a></p>
 <p>Most funny part, that this MMM is unofficial. Uses Bayesian Methods instead of Linear or Ridge regression — it gives an opportunity to show you more plausible results in the final model. They also have AdStock and Saturation built-in. What is better — users reports, that LightweightMMM estimate your model significantly faster, than Robyn.</p>
-<h4 id="3---buy-ready-made-mmm-solution-from-some-3rd-party-vendor--saas-startup--consultant">3 - Buy ready-made MMM solution from some 3rd-party vendor / SaaS startup / Consultant</h4>
+<h3 id="3---buy-ready-made-mmm-solution-from-some-3rd-party-vendor--saas-startup--consultant">3 - Buy ready-made MMM solution from some 3rd-party vendor / SaaS startup / Consultant</h3>
 <p>Sometimes it is a good solution — if you don’t have enough expertise, and simple Google Sheet is not enough — this is your choice. When I started to gather info about MMMs I found out dozens of companies, who can handle everything for you. The question is how will you distinguish the right people from dilettantes. The cost of fail depends on your spend, but it could be accumulated, if you will trust wrong data long enough.</p>
-<h4 id="4---make-in-house-model">4 - Make in-house model</h4>
+<h3 id="4---make-in-house-model">4 - Make in-house model</h3>
 <p>Obviously, it is expensive, as it will take anywhere from few weeks to few months of well-trained analysts to create and stabilize it. It is a good way if you are concerned about privacy, or have very specific goals in mind, that not fits into the usual pipeline. Otherwise, it is better to use Open Source.</p>
+<br>
 <h2 id="final-word">Final word</h2>
 <p>Few years ago I was a lazy app marketer, who relies only on last-click attribution — everything was very clear and understandable, but now you need to be fast and scrupulous to separate the wheat from the chaff.</p>
 <p>I would like to make an MMM (in some variant) the part of my weekly or monthly routine, and be more efficient on that way. MMM is only the one puzzle in the global picture of fragmented app marketing tracking, and it is fine to use it with MMP and SKAdNetwork, with product and web analytics. Don’t waste your budget on useless ads — the world have so much crap to spend on.</p>
 <p>Stay tuned!</p>
+<br>
 <h3 id="helpful-materials">Helpful materials</h3>
 <ul>
 <li>
@@ -346,11 +354,104 @@
   
   <a href="https://23chase.github.io/texts/marketing/">#marketing</a>
   
+
+  
+<style type="text/css" media="screen">
+    .revue-embed {
+    background: #fff;
+    font-family: 'Verdana', sans-serif;
+    color: #fffffff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form {
+    width: 55%;
+    margin: 0.5em auto;
+}
+
+.revue-header {
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-top: 0.5em;
+}
+
+.revue-description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+.revue-input {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+#member_email {
+    width: 65%;
+    font-size: 14px;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+#member_submit {
+    width: 35%;
+    height: 48px;
+    font-size: 14px;
+    background: #99D6EA;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .1s ease-in-out;
+}
+
+#member_submit:hover {
+    background: #F99FC9;
+}
+
+input:focus {
+    outline: none;
+    outline: 1px solid #F99FC9;
+    box-shadow: 0 0 2px #F99FC9;
+}
+
+</style>
+<link href='https://fonts.googleapis.com/css?family=Verdana:400,700' rel='stylesheet' type='text/css'>
+
+<div id="revue-embed" class="revue-embed">
+    <form action="http://newsletter.markmukhin.com/add_subscriber" method="post" id="revue-form" name="revue-form"
+          target="_blank">
+        <div class="revue-header">
+            <p>Drop your email here</p>
+        </div>
+        <div class="revue-description">
+            <p>I will add you to my subscribers list, and send you some thoughts. I won't track you or sell you anything.</p>
+          </div>
+        <div class="revue-input">
+            <input type="email" class="button" name="member[email]" id="member_email" placeholder="live@long.org">
+            <input type="submit" class="button" name="member[subscribe]" id="member_submit" value="Join">
+        </div>
+    </form>
+</div>
+
 </p>
 
   </main>
   <footer>
-2022
+2023
 </footer>
 
     
