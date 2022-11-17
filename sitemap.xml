@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://23chase.github.io/</loc>
-    <lastmod>2022-08-29T18:23:23+02:00</lastmod>
+    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://23chase.github.io/texts/data/</loc>
+    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
+  </url><url>
+    <loc>https://23chase.github.io/texts/future/</loc>
+    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
+  </url><url>
+    <loc>https://23chase.github.io/texts/</loc>
+    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
+  </url><url>
+    <loc>https://23chase.github.io/texts/what-data-do-we-lose-now/</loc>
+    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
   </url><url>
     <loc>https://23chase.github.io/texts/health/</loc>
     <lastmod>2022-08-29T18:23:23+02:00</lastmod>
@@ -13,9 +25,6 @@
     <lastmod>2022-08-29T18:23:23+02:00</lastmod>
   </url><url>
     <loc>https://23chase.github.io/texts/sports/</loc>
-    <lastmod>2022-08-29T18:23:23+02:00</lastmod>
-  </url><url>
-    <loc>https://23chase.github.io/texts/</loc>
     <lastmod>2022-08-29T18:23:23+02:00</lastmod>
   </url><url>
     <loc>https://23chase.github.io/texts/app/</loc>
