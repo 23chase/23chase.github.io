@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>future on Mark Mukhin</title>
-    <link>https://23chase.github.io/texts/future/</link>
-    <description>Recent content in future on Mark Mukhin</description>
+    <title>assistant on Mark Mukhin</title>
+    <link>https://23chase.github.io/texts/assistant/</link>
+    <description>Recent content in assistant on Mark Mukhin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Mark Mukhin.</copyright>
-    <lastBuildDate>Sat, 26 Nov 2022 18:23:23 +0100</lastBuildDate><atom:link href="https://23chase.github.io/texts/future/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Nov 2022 18:23:23 +0100</lastBuildDate><atom:link href="https://23chase.github.io/texts/assistant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Make Smart Assistant Smarter And Stay Private?</title>
       <link>https://23chase.github.io/texts/smart-assistants/</link>
@@ -16,16 +16,6 @@
       <guid>https://23chase.github.io/texts/smart-assistants/</guid>
       <description>I was inspired by this thread of comments and came to some conclusions around future of virtual assistants — https://news.ycombinator.com/item?id=33608437
 I am passionate about the idea of intelligent virtual assistant, like many people around here. This widespread obsession is visible through countless examples from popular culture — HAL 9000 and Jarvis, Skynet and Batcomputer. What’s so attractive about it? Virtual assistant represent the companion, who’s power complement human’s, and help one to become a superhuman, with limitless capabilities.</description>
-    </item>
-    
-    <item>
-      <title>What Data Do We Lose Now?</title>
-      <link>https://23chase.github.io/texts/what-data-do-we-lose-now/</link>
-      <pubDate>Wed, 16 Nov 2022 18:23:23 +0200</pubDate>
-      
-      <guid>https://23chase.github.io/texts/what-data-do-we-lose-now/</guid>
-      <description>What data do we gather? We gather a vast amount of data — the total amount gathered up to 2020 is 64,2 zettabytes, and till 2025 it will reach 180 zettabytes. There are some of the fields:
-Users behavior online. We get from search, socials, communication platforms, e-com stores, payment providers. It gives information about what our society is looking for, what we are capturing, and how we behave in the real-time.</description>
     </item>
     
   </channel>
