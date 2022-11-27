@@ -3,16 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://23chase.github.io/</loc>
-    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
+    <lastmod>2022-11-26T18:23:23+01:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://23chase.github.io/texts/data/</loc>
-    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
+    <loc>https://23chase.github.io/texts/assistant/</loc>
+    <lastmod>2022-11-26T18:23:23+01:00</lastmod>
   </url><url>
     <loc>https://23chase.github.io/texts/future/</loc>
-    <lastmod>2022-11-16T18:23:23+02:00</lastmod>
+    <lastmod>2022-11-26T18:23:23+01:00</lastmod>
+  </url><url>
+    <loc>https://23chase.github.io/texts/smart-assistants/</loc>
+    <lastmod>2022-11-26T18:23:23+01:00</lastmod>
+  </url><url>
+    <loc>https://23chase.github.io/texts/privacy/</loc>
+    <lastmod>2022-11-26T18:23:23+01:00</lastmod>
   </url><url>
     <loc>https://23chase.github.io/texts/</loc>
+    <lastmod>2022-11-26T18:23:23+01:00</lastmod>
+  </url><url>
+    <loc>https://23chase.github.io/texts/data/</loc>
     <lastmod>2022-11-16T18:23:23+02:00</lastmod>
   </url><url>
     <loc>https://23chase.github.io/texts/what-data-do-we-lose-now/</loc>
