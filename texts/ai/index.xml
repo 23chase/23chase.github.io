@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ai on Mark Mukhin</title>
+    <link>https://23chase.github.io/texts/ai/</link>
+    <description>Recent content in ai on Mark Mukhin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2022, Mark Mukhin.</copyright>
+    <lastBuildDate>Wed, 04 Jan 2023 18:23:23 +0100</lastBuildDate><atom:link href="https://23chase.github.io/texts/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overcoming the Challenges of Answer Search Engines</title>
+      <link>https://23chase.github.io/texts/answer-search-engine/</link>
+      <pubDate>Wed, 04 Jan 2023 18:23:23 +0100</pubDate>
+      
+      <guid>https://23chase.github.io/texts/answer-search-engine/</guid>
+      <description>The Generative Pre-trained Transformers (GPT) family of large language models has been rapidly improving. These language models are trained on data that humankind has produced, giving us access to the collective wisdom of the ages, but faster and more accurately. GPT-3, released in mid-2020, was a breakthrough and has enabled a range of text-based projects of varying complexity. The release of ChatGPT in late 2022 has further pushed the boundaries, although AI still has some limitations.</description>
+    </item>
+    
+  </channel>
+</rss>
