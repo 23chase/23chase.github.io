@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Mark Mukhin.</copyright>
-    <lastBuildDate>Wed, 04 Jan 2023 18:23:23 +0100</lastBuildDate><atom:link href="https://23chase.github.io/texts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 18:23:23 +0100</lastBuildDate><atom:link href="https://23chase.github.io/texts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to combat deepfakes technology?</title>
+      <link>https://23chase.github.io/texts/combat-deepfakes/</link>
+      <pubDate>Tue, 24 Jan 2023 18:23:23 +0100</pubDate>
+      
+      <guid>https://23chase.github.io/texts/combat-deepfakes/</guid>
+      <description>Artificial Intelligence (AI) improvement is fraught with danger at a high-level —economical, ethical, existential. We have heard alarming notes from researchers such as Bostrom and Hawking, and from businessmen such as Gates and Musk. However, the rapid rise of low-level, day-to-day implementations also brings concerns. Tools to create fake realities are becoming increasingly accessible, and these can be very harmful.
+Someone can already create fake images or videos of a person, or even attend online calls.</description>
+    </item>
+    
     <item>
       <title>Overcoming the Challenges of Answer Search Engines</title>
       <link>https://23chase.github.io/texts/answer-search-engine/</link>
