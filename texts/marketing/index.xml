@@ -14,8 +14,9 @@
       <pubDate>Sun, 21 Aug 2022 18:23:23 +0200</pubDate>
       
       <guid>https://23chase.github.io/texts/app/</guid>
-      <description>Disclaimer: I am not a statistician. I always worked with app marketing. I wrote this text for people like me — for who don’t know much about linear regression and stuff. Some of these techniques I tried, most of them not. But I wanna to explore it to answer some questions.
-What is MMM? Marketing Mix Modeling is an analysis of historical marketing data to estimate the impact of marketing channels and activities on sales and forecast the future.</description>
+      <description>What is MMM? Marketing Mix Modeling is an analysis of historical marketing data to estimate the impact of marketing channels and activities on sales and forecast the future.
+Put it simple: We wanna know, how our budget works.
+Why anybody should care about it? In terms of marketing, it is not always possible to say, that Channel X caused Y increase in sales in Z time. Everything starts with non-trackable ads, or ads that very difficult to track, like TV or billboards.</description>
     </item>
     
   </channel>

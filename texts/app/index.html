@@ -34,7 +34,7 @@
 <meta itemprop="name" content="App Marketing predictions using MMM">
 <meta itemprop="description" content="We wanna know, how our money works. Guide for non-technical dummies."><meta itemprop="datePublished" content="2022-08-21T18:23:23+02:00" />
 <meta itemprop="dateModified" content="2022-08-21T18:23:23+02:00" />
-<meta itemprop="wordCount" content="1872"><meta itemprop="image" content="https://23chase.github.io/images/share.png"/>
+<meta itemprop="wordCount" content="1753"><meta itemprop="image" content="https://23chase.github.io/images/share.png"/>
 <meta itemprop="keywords" content="marketing," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -236,20 +236,19 @@
 </p>
 
 <content>
-  <p><em>Disclaimer: I am not a statistician. I always worked with app marketing. I wrote this text for people like me — for who don’t know much about linear regression and stuff. Some of these techniques I tried, most of them not. But I wanna to explore it to answer some questions.</em></p>
-<br>
+  <br>
 <h2 id="what-is-mmm">What is MMM?</h2>
 <p>Marketing Mix Modeling is an analysis of historical marketing data to estimate the impact of marketing channels and activities on sales and forecast the future.</p>
-<p>Put it simple: <em><strong>We wanna know, how our money works.</strong></em></p>
+<p>Put it simple: <em><strong>We wanna know, how our budget works.</strong></em></p>
 <br>
 <h2 id="why-anybody-should-care-about-it">Why anybody should care about it?</h2>
-<p>In terms of marketing, it is not always possible to say, that Channel X caused Y increase in sales in Z time. Everything starts with non-trackable ads, or ads that very difficult to track. Like TV or billboards.</p>
+<p>In terms of marketing, it is not always possible to say, that Channel X caused Y increase in sales in Z time. Everything starts with non-trackable ads, or ads that very difficult to track, like TV or billboards.</p>
 <p>How can you be sure, that this money were worth spending on this funny but very expensive rolls between evening TV shows? How can you track the dependencies, if you have dozens of activities that track differently? How can you be sure that you don’t cannibalize your own organic traffic?</p>
 <p><img src="/possible-touchpoints.png" alt="HERE THE PICTURE OF POSSIBLE TOUCHPOINTS"></p>
-<p>Big brands have big budgets, so you can’t just guess, you need tools to analyze the diverse marketing landscape. They have been in the MMM game for a long time (Wikipedia says from 1949!).</p>
+<p>Big brands need tools to analyze the diverse marketing landscape filled with big marketing budget. They have been in the MMM game <a href="https://en.wikipedia.org/wiki/Marketing_mix_modeling">from 1949</a>.</p>
 <p>Personally, I start to think of prediction after iOS privacy hit (and upcoming Android Privacy Sandbox + Cookies death), that changed mobile ads&rsquo; environment entirely. I used to check campaign results in analytical tools (MMPs) like AppsFlyer / Adjust, but for now I can’t rely on data from them — it becomes different, and you can’t simply get the data and be 100% confident, that this data == true.</p>
 <p>App marketing was complicated as it is — you have many unobservable touchpoints through the way of user to your product, and last-click attribution model sucks — it is VERY difficult to distinguish noise from signal and make an informed decision.</p>
-<p><strong>But iOS 14.5 hit was the last warning — change or die.</strong></p>
+<p><strong>But iOS 14.5 hit was the last warning — we need to change.</strong></p>
 <br>
 <h2 id="with-the-help-of-mmm-we-want-to-">With the help of MMM we want to …</h2>
 <ul>
@@ -260,7 +259,7 @@
 <p>To summarize — MMM gives the app marketer a possibility to handle everything plus don’t rely on user-level data, which is awesome.</p>
 <br>
 <h2 id="how-does-it-works-in-general">How does it works in general?</h2>
-<p>MMM uses some sorts of regression analyses. Regression analyses — process for estimating the relationships between two variables — dependent (output) and independent (input).</p>
+<p>MMM uses various sorts of regression analyses. <a href="https://en.wikipedia.org/wiki/Regression_analysis">Regression analysis</a> — process for estimating the relationships between two variables — dependent (output) and independent (input).</p>
 <p>There are many types of regressions, but linear regression is the most common. It is used to predict a variable based on the another variable using the straight line that most closely goes between these variables.</p>
 <p><img src="/linear-regression.png" alt="HERE THE PICTURE OF STRAIGHT LINE BETWEEN POINTS"></p>
 <p>You give X and Y and want to find out, how these variables works out. By X you can mean Marketing spend by channels, PR coverage, Seasonality, Weather, App Store ranking and other stuff. By Y you can mean anything that you wanna predict — Sales, Web or In-app events.</p>
@@ -281,7 +280,7 @@
 <li>Not every model will see and use underlying connections, seasonality, economical situation etc. You mostly put into model well-know historical data.</li>
 <li>Some of the MMM’s can’t clearly get into account seasonality, auction and economical situation, that will hugely influence the results.</li>
 </ul>
-<p>Despite these limitations, we need just a vector to set the hypotheses, right?</p>
+<p>Despite these limitations, we need just a vector to set the hypotheses, so it&rsquo;s fine.</p>
 <br>
 <h2 id="but-how-can-i-start">But how can I start?</h2>
 <p>There are few options to start with. Which one to choose will depends on how much money / time / other resources you have. E.g. some marketers can hire a person who will handle it, some can ask their in-house analytical team, others can manage it by their selves.</p>
@@ -297,12 +296,12 @@
 <li>Predict the future results of a desired event. Using coefficients, you can calculate, how your outcome changes with the different budget allocation.</li>
 </ul>
 <p>But how do LINEST function work?</p>
-<p>This was the first question, when I tried this function by myself. From Google Docs Help — «Given partial data about a linear trend, calculates various parameters about the ideal linear trend using the least-squares method». Ok, maybe I got it. But what is least-squares method? Reframing the Wikipedia: «The method of least squares is a an approach to approximate the solution by minimizing the sum of the squares of the residuals made in the results of each individual equation». Here I stop — maybe I will dive deeper next time.</p>
+<p>This was the first question, when I tried this function by myself. From Google Docs Help — «Given partial data about a linear trend, calculates various parameters about the ideal linear trend using the least-squares method». What is least-squares method? Reframing <a href="https://en.wikipedia.org/wiki/Least_squares">the Wikipedia</a>: «The method of least squares is a an approach to approximate the solution by minimizing the sum of the squares of the residuals made in the results of each individual equation». Here I stop — maybe I will dive deeper next time.</p>
 <p>I have some difficulties with this type of MMM — first I had not enough data to make trustworthy model, then I found out, that I have big spikes in spending and this brake entire approach. Also, average error rate was acceptable, but from week to week I found out some peaks, that ruins everything. So the main goal is to reach the point, where you can trust this Model. And it will take some time.</p>
 <h3 id="2---use-open-source-solutions">2 - Use Open Source solutions</h3>
 <p><strong>Facebook Robyn</strong></p>
 <p><a href="https://facebookexperimental.github.io/Robyn/">https://facebookexperimental.github.io/Robyn/</a></p>
-<p>Facebook Robyn uses Ridge Regression — this type is different from linear regression because it overcomes the problem of multicollinearity. Robyn provides a much more advanced dive into MMM topic:</p>
+<p>Facebook Robyn uses <a href="https://en.wikipedia.org/wiki/Ridge_regression">Ridge Regression</a> — this type is different from linear regression because it overcomes the problem of multicollinearity. Robyn provides a much more advanced dive into MMM topic:</p>
 <ul>
 <li>They have a “Prophet” code, that decomposes data into “trend, seasonality, holiday and weekday impacts, in order to improve the model fit and ability to forecast”. It is very useful, as simple LINEST in Google Sheets will require you to check those impacts by your own and try to add it to MMM manually.</li>
 <li>They have three categories of variables. Paid Media — everything that have direct ad spend. Organic — marketing activities without possibility to connect marketing spend, like Push notifications, Social posts or Newsletter. Context — everything behind the previous two categories — from unemployment rates to prices, everything that could add more context to the forecast because it directly impacts your dependent variables.</li>
@@ -310,16 +309,14 @@
 </ul>
 <p><strong>Google LightweightMMM</strong></p>
 <p><a href="https://github.com/google/lightweight_mmm">https://github.com/google/lightweight_mmm</a></p>
-<p>Most funny part, that this MMM is unofficial. Uses Bayesian Methods instead of Linear or Ridge regression — it gives an opportunity to show you more plausible results in the final model. They also have AdStock and Saturation built-in. What is better — users reports, that LightweightMMM estimate your model significantly faster, than Robyn.</p>
+<p>Most funny part, that this MMM is unofficial. Uses <a href="https://en.wikipedia.org/wiki/Bayesian_inference">Bayesian Methods</a> instead of Linear or Ridge regression — it gives an opportunity to show you more plausible results in the final model. They also have AdStock and Saturation built-in. What is better — users reports, that LightweightMMM estimate your model significantly faster, than Robyn.</p>
 <h3 id="3---buy-ready-made-mmm-solution-from-some-3rd-party-vendor--saas-startup--consultant">3 - Buy ready-made MMM solution from some 3rd-party vendor / SaaS startup / Consultant</h3>
 <p>Sometimes it is a good solution — if you don’t have enough expertise, and simple Google Sheet is not enough — this is your choice. When I started to gather info about MMMs I found out dozens of companies, who can handle everything for you. The question is how will you distinguish the right people from dilettantes. The cost of fail depends on your spend, but it could be accumulated, if you will trust wrong data long enough.</p>
 <h3 id="4---make-in-house-model">4 - Make in-house model</h3>
 <p>Obviously, it is expensive, as it will take anywhere from few weeks to few months of well-trained analysts to create and stabilize it. It is a good way if you are concerned about privacy, or have very specific goals in mind, that not fits into the usual pipeline. Otherwise, it is better to use Open Source.</p>
 <br>
 <h2 id="final-word">Final word</h2>
-<p>Few years ago I was a lazy app marketer, who relies only on last-click attribution — everything was very clear and understandable, but now you need to be fast and scrupulous to separate the wheat from the chaff.</p>
-<p>I would like to make an MMM (in some variant) the part of my weekly or monthly routine, and be more efficient on that way. MMM is only the one puzzle in the global picture of fragmented app marketing tracking, and it is fine to use it with MMP and SKAdNetwork, with product and web analytics. Don’t waste your budget on useless ads — the world have so much crap to spend on.</p>
-<p>Stay tuned!</p>
+<p>I would like to make an MMM (in some variant) the part of my weekly or monthly routine, and be more efficient on that way. MMM is only the one puzzle in the global picture of fragmented app marketing tracking, and it is fine to use it with MMP and SKAdNetwork, with product and web analytics. Stay tuned!</p>
 <br>
 <h3 id="helpful-materials">Helpful materials</h3>
 <ul>
@@ -355,7 +352,7 @@
   <a href="https://23chase.github.io/texts/marketing/">#marketing</a>
   
 </p>
-<iframe src="https://markmukhin.substack.com/embed" width="80%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 
   </main>
   <footer>
