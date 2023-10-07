@@ -1,0 +1,70 @@
+.revue-embed {
+    background: #fff;
+    font-family: 'Verdana', sans-serif;
+    color: #fffffff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form {
+    width: 60%;
+    margin: 0.5em auto;
+}
+
+.revue-header {
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-top: 0.5em;
+}
+
+.revue-description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+.revue-input {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+#member_email {
+    width: 65%;
+    font-size: 14px;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+#member_submit {
+    width: 35%;
+    height: 48px;
+    font-size: 14px;
+    background: #99D6EA;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .1s ease-in-out;
+}
+
+#member_submit:hover {
+    background: #F99FC9;
+}
+
+input:focus {
+    outline: none;
+    outline: 1px solid #F99FC9;
+    box-shadow: 0 0 2px #F99FC9;
+}
