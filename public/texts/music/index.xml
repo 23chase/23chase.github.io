@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on Mark Mukhin</title>
+    <link>https://23chase.github.io/texts/music/</link>
+    <description>Recent content in music on Mark Mukhin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2022, Mark Mukhin.</copyright>
+    <lastBuildDate>Sat, 07 Oct 2023 14:23:23 +0200</lastBuildDate><atom:link href="https://23chase.github.io/texts/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diving into AI-Powered Music Production</title>
+      <link>https://23chase.github.io/texts/ai-music-production-1/</link>
+      <pubDate>Sat, 07 Oct 2023 14:23:23 +0200</pubDate>
+      
+      <guid>https://23chase.github.io/texts/ai-music-production-1/</guid>
+      <description>When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?</description>
+    </item>
+    
+  </channel>
+</rss>
