@@ -10,7 +10,7 @@ tags = ["ai","future","music"]
 
 When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?
 
-There are some interesting ways to do it now. They're not perfect: AI can generate a good-sounding mall-core or a good vocal part. But these are the first giant steps towards massive changes in the way artists work.
+There are some interesting ways to do it now. They're not perfect: AI can generate a good-sounding mall-core or a good vocal part. But these are the first massive steps towards massive changes in the way artists work. 
 
 **Theory**
 
