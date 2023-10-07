@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="shortcut icon" type="image/png" href="/images/icon-192x192.png">
+<link rel="shortcut icon" sizes="192x192" href="/images/icon-192x192.png">
+<link rel="apple-touch-icon" href="/imgages/icon-192x192.png">
+<title>Diving into AI-Powered Music Production | Mark Mukhin</title>
+<meta name="title" content="Diving into AI-Powered Music Production" />
+<meta name="description" content="When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?" />
+<meta name="keywords" content="ai,future,music," />
+
+
+<meta property="og:title" content="Diving into AI-Powered Music Production" />
+<meta property="og:description" content="When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://23chase.github.io/texts/ai-music-production-1/" /><meta property="og:image" content="https://23chase.github.io/images/share.png"/><meta property="article:section" content="texts" />
+<meta property="article:published_time" content="2023-10-07T14:23:23+02:00" />
+<meta property="article:modified_time" content="2023-10-07T14:23:23+02:00" /><meta property="og:site_name" content="Mark Mukhin" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://23chase.github.io/images/share.png"/>
+
+<meta name="twitter:title" content="Diving into AI-Powered Music Production"/>
+<meta name="twitter:description" content="When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?"/>
+
+
+
+<meta itemprop="name" content="Diving into AI-Powered Music Production">
+<meta itemprop="description" content="When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?"><meta itemprop="datePublished" content="2023-10-07T14:23:23+02:00" />
+<meta itemprop="dateModified" content="2023-10-07T14:23:23+02:00" />
+<meta itemprop="wordCount" content="1340"><meta itemprop="image" content="https://23chase.github.io/images/share.png"/>
+<meta itemprop="keywords" content="ai,future,music," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Mark Mukhin</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/texts">Texts</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Diving into AI-Powered Music Production</h1>
+<p>
+  <i>
+    <time datetime='2023-10-07' pubdate>
+      07 Oct, 2023
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>When ChatGPT was released in November 2022, it got hundreds of potential implications—you can get answer to almost any question, get ready-made essay on specified subject, working programming code or compiling business strategy. And the quality of the output depends mostly only on how good you are at asking in the right way. One of the first thoughts I had was: how can we use the coming wave of generative AI in music production?</p>
+<p>There are some interesting ways to do it now. They&rsquo;re not perfect: AI can generate a good-sounding mall-core or a good vocal part. But these are the first giant steps towards massive changes in the way artists work.</p>
+<p><strong>Theory</strong></p>
+<p>First good use case is a <a href="https://www.youtube.com/watch?v=tV82Wy-tXRE">Text-to-MIDI</a>. MIDI can be created for melodies, chord progressions or drum parts. One approach is to use ChatGPT to get a textual representation of MIDI and then convert it to MIDI using <a href="https://www.reddit.com/r/ChatGPT/comments/101mq1l/chatgpt_and_midi/">simple Python code</a>. The second is to use various tools such a <a href="https://wavtool.com/">WavTool</a>, which is essentially a DAW in the browser that have a feature to create a MIDI file directly from a text prompt and add it to the track. It also has additional functions such as the ability to ask in text to add effects to desired tracks.</p>
+<p>The next implication is to generate one-shot samples, loops, stems or even complete “songs”. On 10 May 2023, Google released <a href="https://google-research.github.io/seanet/musiclm/examples/">MusicLM</a> and 3 months later Meta released <a href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen</a>. Both are text-to-music models that create the finished track with a good enough quality. Google offers beta access via the <a href="https://aitestkitchen.withgoogle.com/experiments/music-lm">waiting list</a>, while Meta&rsquo;s model is open-source, and in addition to working with text prompts can be enriched with a short audio clip as a reference, and the model will be able to pick up both in the output.</p>
+<p>Generating a monolith audio itself isn&rsquo;t helpful for producers. To get access to tracks within &ldquo;song&rdquo;, we can use <a href="https://voice.ai/tools/stem-splitter">another AI</a> to separate tracks on stems. This allows to working with full tracks as loops, and sampling the AI-generated audio to one-shots. Another interesting implication is to create samples using text-to-sound models as Meta&rsquo;s <a href="https://audiocraft.metademolab.com/audiogen.html">AudioGen</a>, which generates environmental sounds and sound effects. One more option is to use tools that generate samples, such as <a href="https://samplab.com/text-to-sample">this VST plugin</a>.</p>
+<p>Text-to-speech models can generate a person&rsquo;s voice, but now there are more specific models available to generate a real-sounding vocal. You can even <a href="https://musicfy.lol/">update a vocal</a> with a real person&rsquo;s voice and use it to fake it. In April 2023, artists <a href="https://www.businessinsider.com/fake-ai-generated-travis-scott-album-taken-off-youtube-soundcloud-2023-4">made a fake AI-generated</a> Travis Scott album.</p>
+<p>It&rsquo;s getting to the point where every aspect of the whole song can be generated. One example is the collective <a href="https://dadabots.com/">Dadabots</a>, who build their own &ldquo;raw audio neural networks that can imitate bands&rdquo;. They produce different kinds of extreme genres and <a href="https://www.youtube.com/watch?v=MwtVkPKx3RA">stream them 24/7</a>. They were <a href="https://dadabots.com/science.php">early visionaries</a> in the field, trying to generate music by specifying musical influences that a model trains on. They participated (?) in recent launch of <a href="https://stableaudio.com">Stable Audio</a>, text-to-music service trained on assets from stock audio provider AudioSparx, and it works really well. Another example is a <a href="https://www.suno.ai/">Suno AI</a> that generates full songs, but in a way that analyses the patterns of words, rhythms and sounds and combines them with audio that follows the cadence and structure of the lyrics provided.</p>
+<p>So with the current state of technology it is possible to produce a song using only generated sounds with a wide variety of possible tools and approaches. I wanted to see what I could get out of it.</p>
+<p><strong>Practice</strong></p>
+<p>I used MusicGen to create the base of a track, here is what I got initially:</p>
+<p><a href="https://www.are.na/block/24034406">Base audio</a></p>
+<p>The next step was to separate the lead sound from the drums, so that I could work on both. I used the Voice AI stem splitter to do this. After that I worked on the composition and added the bass line. The bass was sampled from another (failed) generated track.</p>
+<p>It felt like the drums were groovy but still static. I wanted to add some percussion, but after playing around with the promts in MusicGen, it became clear that it was hard to get a clean solo track for the hi-hats. Stable Audio helped here when I asked for &ldquo;2000s trap, hi-hat solo, 140 bpm, fast, aggressive&rdquo;, although it took several tries to tweak the prompt:</p>
+<p><a href="https://www.are.na/block/24034441">Hi-hat audio</a></p>
+<p>The main problem was creating the vocal track. I decided to use Suno, but results weren&rsquo;t convincing, and I even had to go directly to ChatGPT and ask for lyrics, here what I got:</p>
+<pre tabindex="0"><code>What&#39;s the canvas of your psyche, tell me, what&#39;s the hue? 
+Is it Picasso&#39;s blue or Van Gogh&#39;s yellow too?
+In the labyrinth of thoughts, are you lost in the maze?
+Abstract expressions in your mind, like art ablaze.
+Are your dreams like Dali&#39;s clocks, melting in the night?
+As Salvador surreal.
+
+As Salvador surreal, do you feel your grip on sight?
+Is your life a Kafkaesque novel, pages turning strange?
+Metamorphosing daily, as your world deranges.
+When you peer into the mirror, what&#39;s the reflection?
+An Escher staircase, endless, no clear direction?
+The ink of your existence, does it spill beyond the lines?
+Are you the lyrics or the beat in these rhymes?
+</code></pre><p>Despite the heavy name-dropping, I kinda like it. I threw it to Suno, and it took me many tries to get vocal part good enough to be used as an acapella for my song. This is what I got for vocals:</p>
+<p><a href="https://www.are.na/block/24034448">Vocal audio</a></p>
+<p>I used the stem splitter again, but this time bass was heavy and distorted the vocal part, which impacted overall quality. I had to adjust the tempo, and in general the flow doesn&rsquo;t match the beat (Suno&rsquo;s initial generation was better in this respect), although it&rsquo;s applicable.</p>
+<p>I polished a piece, did a raw mix and of course <a href="https://www.bandlab.com/mastering">AI mastered it</a>. You can listen to the final version here:</p>
+<p><a href="https://www.are.na/block/24034459">Fake Song</a></p>
+<p>I haven&rsquo;t encountered many issues, but worth mentioning is that adding BPM to the prompt doesn&rsquo;t always help, and the generated audio has a different tempo. Some of the models produce very high end output: it sounds like a top-level production. However, sometimes it can sound flat and noisy, giving a feeling of low quality. With text-to-music/sound, you can&rsquo;t change the created audio slightly, play with instruments or adjust drums (though there are some <a href="https://www.youtube.com/watch?v=U1qMiTrIiO0">tools</a> that help); you can only update it from scratch and get a completely different track. This is where text-to-MIDI can help.</p>
+<p>The downside of text-to-MIDI is the fact that it is better to know music theory to “explain” to AI model how and which chords to change, what rhythm to use and so on. Music is very mathematical, and without theory you have to describe everyting in very figurative terms, which is difficult to do well. Also, it&rsquo;s just a MIDI file: and it doesn&rsquo;t eliminate the need to find a good sound, arrange a song, add layers and so on. But it works.</p>
+<p>I was also surprised: when I was trying to get a good enough solo drum part, I split it into stems. Somehow the AI found a vocal track in there that wasn&rsquo;t audible when I listened to the whole track. This &ldquo;vocal&rdquo; sounds like an otherworldly voice, and I am so fascinated by the fact that this voice never existed, and this AI model brings it to life. It comes from a huge dataset that is a compilation of many musical compositions that people collectively have produced over the last many years.</p>
+<p>What&rsquo;s also exciting is that none of the sounds in my song are &ldquo;real&rdquo;, they&rsquo;re all generated by different AI models. Whereas before all kind of music producers were looking for good samples to cut, modify and reuse, now a new wave of sample digging has opened up: to create a promt that is good enough to produce high quality audio that can be used again. I&rsquo;m definitely going to use one of these tools: it opens up new doors in sound production.</p>
+
+</content>
+<p>
+  
+  <a href="https://23chase.github.io/texts/ai/">#ai</a>
+  
+  <a href="https://23chase.github.io/texts/future/">#future</a>
+  
+  <a href="https://23chase.github.io/texts/music/">#music</a>
+  
+</p>
+
+
+  </main>
+  <footer>
+2057
+</footer>
+
+    
+</body>
+
+</html>
