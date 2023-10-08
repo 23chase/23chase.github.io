@@ -1,9 +1,9 @@
 name: My New Workflow
+
 on:
   push:
     branches:
       - main
-  # Add other trigger events if needed
 
 jobs:
   build:
@@ -13,4 +13,21 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Add your workflow steps here
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build and Deploy
+        run: |
+          hugo --minify
+          echo '23chase.github.io.' > public/CNAME
+        env:
+          HUGO_ENV: production
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
