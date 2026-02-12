@@ -1,341 +1,170 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="shortcut icon" type="image/png" href="/images/icon-192x192.png">
-<link rel="shortcut icon" sizes="192x192" href="/images/icon-192x192.png">
-<link rel="apple-touch-icon" href="/imgages/icon-192x192.png">
-<title>Texts | Mark Mukhin</title>
-<meta name="title" content="Texts" />
-<meta name="description" content="Ideas pop into my head and I pursue them. Some are converted into texts. I work long-term, and compound concepts. Join, if you wanna." />
-<meta name="keywords" content="ai,app,assistant,deepfake,future,health,marketing,music,privacy," />
-
-
-<meta property="og:title" content="Texts" />
-<meta property="og:description" content="Ideas pop into my head and I pursue them. Some are converted into texts. I work long-term, and compound concepts. Join, if you wanna." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://23chase.github.io/texts/" /><meta property="og:image" content="https://23chase.github.io/images/share.png"/><meta property="og:site_name" content="Mark Mukhin" />
-
-
-
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://23chase.github.io/images/share.png"/>
-
-<meta name="twitter:title" content="Texts"/>
-<meta name="twitter:description" content="Ideas pop into my head and I pursue them. Some are converted into texts. I work long-term, and compound concepts. Join, if you wanna."/>
-
-
-
-<meta itemprop="name" content="Texts">
-<meta itemprop="description" content="Ideas pop into my head and I pursue them. Some are converted into texts. I work long-term, and compound concepts. Join, if you wanna.">
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  <link rel="alternate" type="application/rss+xml" href="https://23chase.github.io/texts/index.xml" title="Mark Mukhin" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texts — Mark Mukhin</title>
+  <meta name="description" content="Long-form writing on systems, patterns, and what's underneath.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
   <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
+    :root {
+      --bg: #fdfdfc;
+      --text: #111;
+      --text-mid: #555;
+      --text-dim: #888;
+      --accent: #d03a2b;
+      --mono: 'JetBrains Mono', 'SF Mono', 'Consolas', monospace;
+    }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  a {
-    color: #3273dc;
-     
-  }
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
 
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
     body {
-      background-color: #333;
-      color: #ddd;
+      font-family: var(--mono);
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 0 24px;
+      width: 100%;
     }
 
-    a {
-      color: #8cc2dd;
+    header {
+      padding: 56px 0 0;
+      margin-bottom: 72px;
     }
 
-    code {
-      background-color: #777;
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 0.8rem;
+      font-weight: 500;
     }
 
-    pre code {
-      color: #ddd;
+    .top-bar > a { color: var(--text); text-decoration: none; }
+
+    nav { display: flex; gap: 20px; }
+
+    nav a {
+      color: var(--text-mid);
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: color 0.15s;
     }
 
-    blockquote {
-      color: #ccc;
+    nav a:hover { color: var(--text); }
+    nav a.active { color: var(--text); }
+
+    .page-title {
+      font-size: clamp(2rem, 5vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 56px;
     }
 
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
+    .post-list { list-style: none; }
+
+    .post-item {
+      padding: 24px 0;
+      border-top: 1px solid #ddd;
     }
 
-    .helptext {
-      color: #aaa;
+    .post-item:last-child { border-bottom: 1px solid #ddd; }
+
+    .post-date {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      margin-bottom: 6px;
     }
-  }
 
-</style>
+    .post-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 8px;
+    }
 
+    .post-title a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .post-title a:hover { color: var(--accent); }
+
+    .post-excerpt {
+      font-size: 0.78rem;
+      color: var(--text-mid);
+      line-height: 1.6;
+      max-width: 520px;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 48px 0 36px;
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .spiral { width: 30px; height: 30px; flex-shrink: 0; }
+
+    .fade-in { opacity: 0; animation: fadeIn 0.5s ease forwards; }
+    .d1 { animation-delay: 0.05s; }
+    .d2 { animation-delay: 0.1s; }
+
+    @keyframes fadeIn { to { opacity: 1; } }
+
+    @media (max-width: 520px) {
+      header { padding: 36px 0 0; margin-bottom: 48px; }
+    }
+  </style>
 </head>
-
 <body>
-  <header><a href="/" class="title">
-  <h2>Mark Mukhin</h2>
-</a>
-<nav><a href="/">Home</a>
+  <div class="container">
 
-
-<a href="/texts">Texts</a>
-
-</nav>
-</header>
-  <main>
-<content>
-  
-  <ul class="blog-posts">
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2023-10-07' pubdate>
-            07 Oct, 2023
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/ai-music-production-1/">Diving into AI-Powered Music Production</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2023-09-13' pubdate>
-            13 Sep, 2023
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/all-apps-are-special/">All Apps Are Special</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2023-01-24' pubdate>
-            24 Jan, 2023
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/combat-deepfakes/">How to combat deepfakes technology?</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2023-01-04' pubdate>
-            04 Jan, 2023
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/answer-search-engine/">Overcoming the Challenges of Answer Search Engines</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2022-12-22' pubdate>
-            22 Dec, 2022
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/ageing-population-opportunities/">Ageing Population Opportunities</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2022-11-26' pubdate>
-            26 Nov, 2022
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/smart-assistants/">How To Make Smart Assistant Smarter And Stay Private?</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2022-08-21' pubdate>
-            21 Aug, 2022
-          </time>
-        </i>
-      </span>
-      <a href="https://23chase.github.io/texts/app-marketing-predictions-using-mmm/">App Marketing predictions using MMM</a>
-    </li>
-    
-  </ul>
-  
-    <small>
-      <div>
-        
-        <a href="https://23chase.github.io/texts/ai/">#ai</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/app/">#app</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/assistant/">#assistant</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/deepfake/">#deepfake</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/future/">#future</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/health/">#health</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/marketing/">#marketing</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/music/">#music</a>&nbsp;
-        
-        <a href="https://23chase.github.io/texts/privacy/">#privacy</a>&nbsp;
-        
+    <header class="fade-in">
+      <div class="top-bar">
+        <a href="/">Mark Mukhin</a>
+        <nav>
+          <a href="/texts/" class="active">Texts</a>
+        </nav>
       </div>
-    </small>
-    
-</content>
+    </header>
 
-  </main>
-  <footer>
-2057
-</footer>
+    <h1 class="page-title fade-in d1">Texts</h1>
 
-    
+    <ul class="post-list fade-in d2">
+      <li class="post-item">
+        <div class="post-date">11.02.2026</div>
+        <div class="post-title"><a href="/texts/hammurabi/">All my homies studied Hammurabi Code</a></div>
+        <div class="post-excerpt">How education installs a cognitive operating system, why going upstream beats riding the flow, and the tension between analytical thinking and building.</div>
+      </li>
+    </ul>
+
+    <footer>
+      <svg class="spiral" viewBox="20 30 170 170" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round">
+        <path d="M100.0,100.0 L100.2,100.0 L100.4,100.1 L100.5,100.1 L100.7,100.2 L100.9,100.3 L101.0,100.5 L101.1,100.6 L101.2,100.8 L101.3,101.0 L101.4,101.2 L101.4,101.4 L101.5,101.7 L101.4,101.9 L101.4,102.2 L101.3,102.4 L101.3,102.7 L101.1,102.9 L101.0,103.2 L100.8,103.4 L100.6,103.6 L100.3,103.8 L100.1,104.0 L99.8,104.2 L99.4,104.4 L99.1,104.5 L98.7,104.6 L98.4,104.7 L98.0,104.7 L97.5,104.7 L97.1,104.7 L96.7,104.6 L96.3,104.5 L95.8,104.4 L95.4,104.2 L94.9,104.0 L94.5,103.7 L94.1,103.4 L93.7,103.1 L93.4,102.7 L93.0,102.3 L92.7,101.8 L92.4,101.3 L92.1,100.8 L91.9,100.3 L91.7,99.7 L91.6,99.1 L91.5,98.4 L91.5,97.8 L91.5,97.2 L91.5,96.5 L91.6,95.8 L91.8,95.1 L92.0,94.5 L92.3,93.8 L92.6,93.1 L93.0,92.5 L93.4,91.9 L93.9,91.3 L94.4,90.7 L95.0,90.2 L95.6,89.7 L96.3,89.2 L97.0,88.8 L97.8,88.4 L98.6,88.1 L99.4,87.9 L100.3,87.7 L101.2,87.6 L102.1,87.5 L103.0,87.5 L103.9,87.6 L104.9,87.7 L105.8,87.9 L106.7,88.2 L107.7,88.5 L108.6,89.0 L109.4,89.5 L110.3,90.0 L111.1,90.7 L111.9,91.4 L112.6,92.1 L113.3,92.9 L114.0,93.8 L114.5,94.8 L115.0,95.8 L115.5,96.8 L115.8,97.9 L116.1,99.0 L116.4,100.1 L116.5,101.3 L116.5,102.5 L116.5,103.7 L116.4,104.9 L116.2,106.1 L115.9,107.3 L115.5,108.5 L115.0,109.7 L114.4,110.8 L113.7,111.9 L113.0,113.0 L112.2,114.0 L111.3,115.0 L110.3,115.9 L109.2,116.7 L108.1,117.5 L106.9,118.2 L105.6,118.8 L104.3,119.4 L103.0,119.8 L101.6,120.2 L100.2,120.4 L98.7,120.5 L97.2,120.6 L95.8,120.5 L94.3,120.3 L92.8,120.1 L91.3,119.7 L89.9,119.2 L88.4,118.6 L87.0,117.8 L85.7,117.0 L84.4,116.1 L83.2,115.1 L82.0,114.0 L80.9,112.8 L79.9,111.5 L79.0,110.1 L78.1,108.7 L77.4,107.1 L76.8,105.6 L76.3,104.0 L75.8,102.3 L75.6,100.6 L75.4,98.8 L75.4,97.1 L75.4,95.3 L75.7,93.5 L76.0,91.8 L76.5,90.0 L77.1,88.3 L77.8,86.6 L78.6,85.0 L79.6,83.4 L80.7,81.9 L81.9,80.4 L83.2,79.1 L84.6,77.8 L86.2,76.6 L87.8,75.5 L89.5,74.5 L91.2,73.7 L93.1,72.9 L94.9,72.3 L96.9,71.9 L98.9,71.5 L100.9,71.3 L102.9,71.3 L105.0,71.4 L107.0,71.6 L109.1,72.0 L111.1,72.6 L113.1,73.3 L115.0,74.1 L116.9,75.1 L118.8,76.2 L120.5,77.4 L122.2,78.8 L123.8,80.3 L125.3,81.9 L126.6,83.7 L127.9,85.5 L129.0,87.4 L130.0,89.5 L130.8,91.6 L131.5,93.7 L132.1,95.9 L132.5,98.2 L132.7,100.5 L132.8,102.8 L132.7,105.2 L132.4,107.5 L132.0,109.8 L131.4,112.1 L130.6,114.4 L129.7,116.6 L128.6,118.8 L127.3,120.9 L125.9,122.8 L124.4,124.8 L122.7,126.6 L120.9,128.2 L118.9,129.8 L116.8,131.2 L114.7,132.5 L112.4,133.6 L110.0,134.6 L107.6,135.4 L105.1,136.0 L102.6,136.5 L100.0,136.8 L97.4,136.8 L94.8,136.8 L92.1,136.5 L89.5,136.0 L87.0,135.3 L84.4,134.5 L81.9,133.5 L79.5,132.3 L77.2,130.9 L74.9,129.3 L72.8,127.6 L70.8,125.8 L68.9,123.7 L67.1,121.6 L65.5,119.3 L64.1,116.9 L62.8,114.4 L61.7,111.8 L60.8,109.1 L60.1,106.3 L59.5,103.5 L59.2,100.4 L59.1,97.7" />
+      </svg>
+      Berlin — 2026
+    </footer>
+
+  </div>
 </body>
-
 </html>
