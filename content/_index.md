@@ -1,3 +1,0 @@
-I strive for high global impact, solving important problems at scale. For the last 6+ years I have been working in marketing, growing bright digital products. I research versatile areas and collect long-term, compounding knowledge and concepts. Some pursued concepts transformed into (rare) [texts](/texts). I gather community of people to achieve more together. Drop me a line if you feel it.
-
-[LinkedIn](https://www.linkedin.com/in/markmukhin/) | [Are.na](https://www.are.na/mark-mukhin)
