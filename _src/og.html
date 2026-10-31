@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- Source for /og.png (1200x630 link-preview image). Render with any browser screenshot at 1200x630. -->
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: 'JetBrains Mono'; src: url(../assets/fonts/JetBrainsMono-Regular.woff); font-weight: 400; }
+  @font-face { font-family: 'JetBrains Mono'; src: url(../assets/fonts/JetBrainsMono-Bold.woff); font-weight: 700; }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; background: #fdfdfc; font-family: 'JetBrains Mono', monospace; }
+  svg { position: absolute; left: 700px; top: -10px; width: 520px; height: 520px; fill: none; stroke: #111; stroke-width: .85; stroke-opacity: .6; stroke-linecap: round; }
+  .name { position: absolute; left: 80px; bottom: 150px; font-size: 92px; font-weight: 700; letter-spacing: -0.03em; color: #111; line-height: 1; }
+  .line { position: absolute; left: 82px; bottom: 100px; font-size: 27px; color: #555; }
+  .url { position: absolute; left: 82px; bottom: 56px; font-size: 22px; color: #6b6b6b; }
+</style>
+<svg viewBox="-100 -100 200 200"><path id="p"/></svg>
+<div class="name">Mark Mukhin</div>
+<div class="line">Growing and building bright digital products.</div>
+<div class="url">markmukhin.com</div>
+<script>
+  var T = 5, n = T * 90, d = [];
+  for (var i = 0; i <= n; i++) {
+    var t = i / n, a = t * T * 2 * Math.PI - Math.PI / 2, r = 98 * t;
+    d.push((i ? 'L' : 'M') + (r * Math.cos(a)).toFixed(1) + ',' + (r * Math.sin(a)).toFixed(1));
+  }
+  document.getElementById('p').setAttribute('d', d.join(''));
+</script>

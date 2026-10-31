@@ -1,0 +1,51 @@
+---
+title: All my homies studied Hammurabi Code
+date: 2026-02-11
+description: How education installs a cognitive operating system, why going upstream beats riding the flow, and the tension between analytical thinking and building.
+---
+
+Our parents, early social circle, everything around us forms our personality.
+
+I found out that Alex Karp is a philosopher, which makes sense! CEO of Palantir, of all companies, thinks in arguments, meanings and assumptions at the deepest possible level. His mind is total, targeting the reasoning itself, which allowed him to build a controversial, but highly influential and successful company, with intelligence agencies as the clients, and lots of fear and hate from usual folks.
+
+Looking at him you can see how profound the impact of studies on one's mindset can be, creating a Personality OS that's a building block of everything person touches. I've studied history, and in my youth I was sitting together with bright minds obsessed over Babylon, ancient Egypt, Vikings, people citing Schopenhauer by memory or people drowning in the dark secrets of the 20th century. All my homies studied Hammurabi Code.
+
+## I. Personality OS
+
+Our professor told us that we always will be wired to look at all aspects of life through lenses of historical process.
+
+I am contextualising by default, asking what context produced the outcome. I always do periodisation and pattern recognition — time can be chopped into pieces with transitions in between. I am trained to be a sceptic to the sources. I see everything as a narrative and forces behind it. And my superpower is contingency over inevitability. Nothing is fixed, nothing is settled, anything can change.
+
+Some people tell me that I am a very structured person, which is true, but this is just the way historical education wired me. This is a baseline; at the end, I am not in academia. What people read as being structured is actually just a side effect, same as being cultured. Sophistication and depth is a hollow echo, a binding byproduct of burning the fresh neurons of your young brain with the OS of a highly analytical mindset, achieved through countless hours of meticulously studying how peasants in the Russian Empire arrived at the revolution of 1905.
+
+Good question to ask: what personality do you have? What period of life impacted your lenses? Do these lenses help in what you do, or would it be better to rewire them?
+
+## II. Going upstream
+
+I can be extroverted, but naturally more introverted. I am super analytical but can go all in on a gut feeling if needed. What people usually are not able to catch is that I've spent the last 10–15 years rewiring myself in various directions.
+
+I recently had one of those conversations where you realize the other person has a completely different theory of how a self should be built.
+
+My point was: I designed my Personality OS on purpose. I was very shy so I started working in direct cold sales in University. I am speaking at conferences. I don't like it. I stress very much around it. But pushing myself through stressful and uncomfortable situations over and over again, year over year, and now do it effortlessly. For me this was an uphill battle, but I designed it myself because only I decide what's possible for me what not.
+
+Her point was: a self-caring approach, where the stress is an indicator that you can overcome it, but it won't come naturally to you, so you better focus on what you do the best. This is the dominating approach in the mass-culture. In abundance of meanings, oversupply of options, real hard work (always internal) is being neglected. She is not wrong that stress is a signal. But how you interpret this signal is wired by your OS as well! For me this is a marker of uncharted territory, where growth is still possible. Not everything in life comes naturally: without stress, tension, and tearing you apart, so stress can be a good signal.
+
+No, you don't need to go with the flow and live a slow life, I cannot disagree more. If you focus only on what you do the best, you do not boost your weak points and sail with everyone, downstream. Historical thinking is inherently analytical, retrospective and contemplative, but I am building, which is the exact opposite: making decisions fast, not having the full picture. This creates tension. But this tension brought me to the better positions in life.
+
+Many advice will be focused on how you can ride with the flow. Bank on hype. But this is boring. What tension you should bring to your life to stop being a victim of your own weaknesses?
+
+## III. Bet a lot, bet often
+
+If you recognise your wiring as a limiting factor, and you start rewriting your OS, there are many ways you can do this.
+
+I suggest to bet often, bet what you can afford to lose, look for asymmetry. I don't want to do one new thing per year. I like the approach called Kelly criterion: you have limited portfolio of time, energy, resources, and you bet it in a sequence, trying to maximise expected long-term value. It is about sizing bets in a correct way, and betting amounts you can survive losing.
+
+The downside of missing targets as a Direct Sales manager is limited: I would still be a history student. And the upside is potentially unlimited: career opportunities, higher sales commissions, landing the dream job in B2B SaaS. This was a wise bet, to bet on Sales jobs. For me, talking to people could give outsized returns, if placed correctly and wisely.
+
+The living tension for me is my tendency to overanalyse and overcomplicate and do not trust any single source. Then, betting allows me a safe space where I can say to myself that I'll try this thing simple, won't trying to become a PhD-level expert in it, and just DO stuff. Few years ago it was almost impossible for me, now I do this effortlessly, switching between Mark who is a highly analytical, and Mark who does first and see what sticks second. Not all bets are winning: I am far away from the trajectory that I was given by my surroundings and my education, but nowhere near where I wanted to be. So I keep betting. Moving countries, building products, building connections with bright minds.
+
+Go upstream, bet wisely, act fast. All my homies studied Hammurabi Code; what wired you to end up here?
+
+## IV. Epilogue
+
+But the deepest tension of this text is meta-meta: notice how I perfectly used historical thinking to explain how historical thinking wired me. This entire analysis on how education installs cognitive Personality OS is itself a historian's move, I could not help myself but make it. I've used this essay as a demonstration of my mind using its training to transcend it.
