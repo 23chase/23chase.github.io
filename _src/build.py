@@ -89,10 +89,22 @@ def parse_body(text):
     return blocks
 
 
+CURLY = {"\u201c": '"', "\u201d": '"', "\u2018": "'", "\u2019": "'"}
+
+
+def straighten(text):
+    """Curly quotes -> straight ones (the site uses straight). Returns (text, count)."""
+    count = sum(text.count(c) for c in CURLY)
+    return text.translate(str.maketrans(CURLY)), count
+
+
 def load_essays():
     essays = []
     for path in sorted((ROOT / "_src" / "essays").glob("*.md")):
-        m = re.match(r"---\n(.*?)\n---\n(.*)", path.read_text(encoding="utf-8"), re.S)
+        source, curly = straighten(path.read_text(encoding="utf-8"))
+        if curly:
+            print(f"straightened {curly} curly quote(s) in {path.name}")
+        m = re.match(r"---\n(.*?)\n---\n(.*)", source, re.S)
         if not m:
             sys.exit(f"{path.name}: missing --- front matter ---")
         meta = {}
@@ -315,7 +327,12 @@ def sitemap(essays):
 # ------------------------------------------------------------------ main
 
 
+HAND_WRITTEN = {"index.html", "404.html"}  # never generated
+
+
 def write(rel, text):
+    if rel in HAND_WRITTEN:
+        sys.exit(f"refusing to overwrite hand-written {rel}")
     path = ROOT / rel
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
